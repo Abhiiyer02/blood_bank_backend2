@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
+      - pip install pipenv
       - pipenv shell
       - pipenv install -r requirements.txt
 
